@@ -2,7 +2,7 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./*.{js,ts,jsx,tsx}", // Изменено здесь: теперь Tailwind видит файлы в корне
   ],
   theme: {
     extend: {
